@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+/* >>>>>>>>>>>>>>>>>>>>main css<<<<<<<<<<<<<<<<<<<<< */
+#form_validation{
+    background: #03A2F7;
+    padding-top: 40px;
+    padding-bottom: 400px;
+}
+.main {
+    width: 550px;
+    padding: 30px;
+    background: #FAFAFA;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 1px 11px 1px #000;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.form-heading{
+    text-align: center;
+    font-family: sans-serif;
+}
+.form-heading h2{
+    padding-bottom: 15px;
+    font-weight: 400;
+}
+.form-field{
+    text-align: center;
+    margin-top: 15px;
+}
+.form-field input{
+    padding: 8px 20px;
+    width: 70%;
+    margin-bottom: 15px;
+}
+.form-field input:focus{
+    outline: none;
+    box-shadow: none;
+}
+.form-button{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.form-button button{
+    padding: 8px 20px;
+    background: #2D57FB;
+    border: none;
+    font-family: sans-serif;
+    color: #ffff;
+    font-weight: 900;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+}
+.err_msg{
+    font-size: 15px;
+    color: red;
+}
+
+.passshow{
+    position: relative;
+}
+.passshow button {
+    position: absolute;
+    top: 0px;
+    right: 74px;
+    background: #2D57FB;
+    padding: 12px;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    color: #FAFAFA;
+    cursor: pointer;
+}
